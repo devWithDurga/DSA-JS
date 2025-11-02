@@ -1,5 +1,5 @@
-# DSA-JS
-My journey of learning and practicing data structures and algorithms in JavaScript. 🧑🏻‍💻📈
+# DSA-JS 🧑🏻‍💻📈
+My journey of learning and practicing data structures and algorithms in JavaScript.
 
 This project reflects my continuous focus on improving **Data Structures and Algorithms** (DSA) skills — applying concepts like:
 
