@@ -1,5 +1,6 @@
 //Main Array
 let arr = [1, 2, -3, 4, 5, -6, 7, 8, -9, 0];
+let arr1 = [6,4,5,5,6,6]
 
 //Find negative values in array and finds the length of it.
 function negatveNumber(arr) {
@@ -39,3 +40,24 @@ function Smallest(arr) {
   return smallest;
 }
 console.log("Smallest", Smallest(arr));
+
+//find second largest number in array
+function SecondLargest(arr) {
+  if(arr.length <2 ){
+    return null
+  }
+  let first = -Infinity;
+  let second = -Infinity;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > first) {
+      second = first;
+      first = arr[i];
+    } else if (arr[i] > second && arr[i] != first) {
+      second = arr[i];
+    }
+  }
+  return second
+}
+
+console.log(SecondLargest(arr1));
